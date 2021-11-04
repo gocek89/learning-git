@@ -4,6 +4,7 @@ shoping_list = {
     "warzywniak": ["pomidory", "ogórek", "ziemniaki"],
     "zabka": ["mleko", "masło orzechowe", "chipsy"]}
 sum = 0
+
 for kay, value in shoping_list.items():
     for v in range(len(value)):
         value[v] = value[v].capitalize()
@@ -12,5 +13,5 @@ for kay, value in shoping_list.items():
 
     x = len(value)
     sum += x
-
+test
 print(f"Suma wszystkich produktów wynosi {sum}")
